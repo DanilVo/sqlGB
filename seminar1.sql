@@ -1,3 +1,15 @@
+CREATE TABLE Customer
+(
+	id int primary key AUTO_INCREMENT,
+    Age int,
+    FirstName VARCHAR(20),
+    LastName VARCHAR(20)
+);
+
+insert Customer (age,firstname,lastname)
+values (22,'Danil','Volobuyev')
+
+
 #SELECT * FROM myfirst.smartphones;
 #SELECT Manufacter,price FROM smartphones WHERE ProductCount > 2;
 #Select * from smartphones where Manufacter = 'Samsung';

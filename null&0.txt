@@ -1,0 +1,2 @@
+The answer is is simple, a NULL means that there is no value, 
+and 0 means the value itself is 0.
